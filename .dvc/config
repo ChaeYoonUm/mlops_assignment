@@ -1,0 +1,4 @@
+[core]
+    remote = localstore
+['remote "localstore"']
+    url = /Users/chaeyooneom/dvcstore/mlops_assignment
