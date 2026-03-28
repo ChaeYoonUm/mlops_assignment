@@ -1,0 +1,62 @@
+=== DATE ===
+Sun Mar 29 01:47:49 KST 2026
+
+=== PWD ===
+/Users/chaeyooneom/projects/mlops_assignment/ajou-mlops-2026-1nd-semester
+
+=== GIT BRANCH ===
+main
+
+=== GIT REMOTE ===
+origin	https://github.com/ChaeYoonUm/mlops_assignment.git (fetch)
+origin	https://github.com/ChaeYoonUm/mlops_assignment.git (push)
+
+=== GIT LOG ===
+1cc8352 update HW02_202524222.ipynb
+4a4076c add DVC_practice_mydata.ipynb
+009507d Update mydata.csv to v2 with DVC
+43ac0ea Track mydata.csv v1 with DVC
+ac8b58f Track titanic.csv with DVC
+
+=== DVC VERSION ===
+DVC version: 3.67.0 (pip)
+-------------------------
+Platform: Python 3.12.9 on macOS-26.4-arm64-arm-64bit
+Subprojects:
+	dvc_data = 3.18.3
+	dvc_objects = 5.2.0
+	dvc_render = 1.0.2
+	dvc_task = 0.40.2
+	scmrepo = 3.6.1
+Supports:
+	http (aiohttp = 3.13.3, aiohttp-retry = 2.9.1),
+	https (aiohttp = 3.13.3, aiohttp-retry = 2.9.1)
+Config:
+	Global: /Users/chaeyooneom/Library/Application Support/dvc
+	System: /Library/Application Support/dvc
+Cache types: reflink, hardlink, symlink
+Cache directory: apfs on /dev/disk3s1s1
+Caches: local
+Remotes: local, local
+Workspace directory: apfs on /dev/disk3s1s1
+Repo: dvc, git
+Repo.site_cache_dir: /Library/Caches/dvc/repo/d38ee0d75602d03accfa5240c0c6d8b5
+
+=== DVC REMOTE LIST ===
+localstore      /Users/chaeyooneom/dvcstore/mlops_assignment    (default)
+practice_local  /Users/chaeyooneom/dvcstore/mlops_assignment_practice
+
+=== DVC STATUS ===
+Data and pipelines are up to date.
+
+=== DVC FILES ===
+-rw-r--r--@ 1 chaeyooneom  staff  89 Mar 27 15:27 data/mydata.csv.dvc
+-rw-r--r--@ 1 chaeyooneom  staff  92 Mar 27 15:00 data/titanic.csv.dvc
+
+=== TITANIC DVC FILE CONTENT ===
+outs:
+- md5: 2309cc5f04782ed9bb6016d9f4e381cf
+  size: 61194
+  hash: md5
+  path: titanic.csv
+
